@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact-Me-Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="center">
+            <p>Send Mail</p>
+            <form class="contact-form" action="contactform.php" method="post">
+                <div class="txt_field">
+                    <input type="text" name="name" placeholder="Full Name">
+                    <span></span>
+                </div>
+                <div class="txt_field">
+                    <input type="text" name="mail" placeholder="Your Mail">
+                    <span></span>
+                </div>
+                <div class="txt_field">
+                    <input type="text" name="subject" placeholder="Subject">
+                    <span></span>
+                </div>
+                <div class="txt_field">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <span></span>
+                </div>
+                <button type="submit" name="submit">Send Message</button>
+                <div class="thanks">Thanks For Contacting Me!</div>
+
+            </form>
+        </div>
+
+    </main>
+</body>
+
+</html>
